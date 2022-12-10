@@ -1,4 +1,4 @@
-import Password from "../models/PasswordModel";
+import Password from "../models/PasswordModel.js";
  
 export const getAllPasswords = async (req, res) => {
     try {

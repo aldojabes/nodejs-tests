@@ -8,7 +8,7 @@ const Password = db.define('passwords',{
         type: DataTypes.STRING
     },
     pass:{
-        type: DataTypes.DOUBLE
+        type: DataTypes.STRING
     }
 },{
     freezeTableName: true
