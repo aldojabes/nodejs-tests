@@ -17,3 +17,5 @@ app.use(express.json());
 app.use('/passwords', passwordsRoutes);
  
 app.listen(5000, () => console.log('Server running at port 5000'));
+
+export default { app };
